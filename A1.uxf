@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>440</x><y>0</y><w>80</w><h>24</h></coordinates><panel_attributes>Sensors</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>304</y><w>176</w><h>152</h></coordinates><panel_attributes>Wire
+--
+-length
+-price 
+-name
+--
+- __str__
+- csv_str
+- duplicate
+-parse_str
+-compare
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>104</y><w>80</w><h>24</h></coordinates><panel_attributes>light</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>280</y><w>208</w><h>176</h></coordinates><panel_attributes>Battery
+--
+- size
+- voltage
+- price
+- name
+--
+- __str__
+-csv_str
+-duplicate
+-parse_str
+-compare
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>200</y><w>80</w><h>24</h></coordinates><panel_attributes>Switches</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>200</y><w>80</w><h>24</h></coordinates><panel_attributes>Buzzers</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>64</y><w>80</w><h>24</h></coordinates><panel_attributes>CircuitKits</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>136</y><w>80</w><h>24</h></coordinates><panel_attributes>Components</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>72</y><w>80</w><h>24</h></coordinates><panel_attributes>LightCircuitKits</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>696</x><y>144</y><w>80</w><h>24</h></coordinates><panel_attributes>SensorCircuitkits</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>136</x><y>80</y><w>80</w><h>24</h></coordinates><panel_attributes>LED</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>136</x><y>120</y><w>80</w><h>24</h></coordinates><panel_attributes>Globes</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>88</y><w>88</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>112</y><w>88</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>616</x><y>64</y><w>120</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;30</additional_attributes></element><element><id>Relation</id><coordinates><x>616</x><y>72</y><w>96</w><h>104</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>152</x><y>488</y><w>240</w><h>136</h></coordinates><panel_attributes>SolarPanel
+--
+- voltage
+- current
+- price
+--
+-calculate_wattage
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
